@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme inline {
+  --font-serif: var(--font-merri);
+  --font-display: var(--font-play);
+}
