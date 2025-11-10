@@ -52,7 +52,7 @@ export default function Header() {
               ثبت‌نام
             </Link>
             <Link
-              href="/create-project"
+              href="/request"
               className="ml-2 px-4 py-1.5 rounded-md text-sm font-medium bg-gradient-to-r from-pink-500 to-indigo-500 hover:opacity-95"
               aria-label="ثبت پروژه جدید"
             >

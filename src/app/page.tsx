@@ -1,7 +1,8 @@
 import CTASection from "./components/CTASection";
 import FeaturedArtists from "./components/FeaturedArtists";
 import HeroSection from "./components/HeroSection";
-import FullProjectRequestForm from "./components/ProjectRequestForm";
+import ProjectRequestForm from "./components/ProjectRequestForm";
+import FullProjectRequestForm from "./components/ProjectRequestForm1";
 import ProjectRequestSection from "./components/ProjectRequestSection";
 import ServicesSection from "./components/ServicesSection";
 import TestimonialsSection from "./components/TestimonialsSection";
@@ -16,9 +17,6 @@ export default function HomePage() {
       <ServicesSection/>
       <TestimonialsSection/>
       <CTASection/>
-      <ProjectRequestSection/>
-      <FullProjectRequestForm/>
-      
     </div>
   );
 }

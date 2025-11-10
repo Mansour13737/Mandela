@@ -1,11 +1,12 @@
 "use client";
 import { motion } from "framer-motion";
 import { Button } from "./ui/Button";
+import Link from "next/link";
 
 export default function CTASection() {
   return (
     <section className="relative py-4 w-full bg-gradient-to-r from-pink-500 to-indigo-600 text-white text-center px-6">
-      
+
       {/* Gradient Overlay */}
       <div className="absolute inset-0 bg-black/30"></div>
 
@@ -21,9 +22,11 @@ export default function CTASection() {
         <p className="text-gray-200 text-lg mb-8">
           با تیم حرفه‌ای ماندلا، آهنگت رو از مرحله ترانه تا مسترینگ با کیفیت جهانی بساز.
         </p>
-        <Button className="bg-white text-black px-10 py-6 text-lg rounded-full hover:bg-gray-200 transition">
-          ثبت پروژه جدید
-        </Button>
+        <Link href={'/request'}>
+          <Button className="bg-white text-black px-10 py-6 text-lg rounded-full hover:bg-gray-200 transition">
+            ثبت پروژه جدید
+          </Button>
+        </Link>
       </motion.div>
     </section>
   );

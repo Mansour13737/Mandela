@@ -8,43 +8,67 @@ import { ChevronLeft, ChevronRight, Star } from "lucide-react";
 const artists = [
   {
     id: 1,
-    name: "آرش رضایی",
-    role: "تنظیم‌کننده و آهنگساز",
+    name: "محمد مقدم",
+    role: "مدیر مجموعه",
     rating: 4.9,
     image:
-      "",
+      "/moghadam.jpg",
   },
   {
     id: 2,
-    name: "نیلوفر محمدی",
-    role: "ترانه‌سرا و وکال کوچ",
+    name: "کاووس حسینی",
+    role: "تنظیم کننده",
     rating: 4.8,
     image:
-      "",
+      "/kawoos.jpg",
   },
   {
     id: 3,
-    name: "سام نادری",
-    role: "میکس و مسترینگ",
+    name: "امید کیان",
+    role: "تنظیم کننده",
     rating: 5.0,
     image:
-      "",
+      "/omid.jpg",
   },
   {
     id: 4,
-    name: "آیدا کاظمی",
-    role: "نوازنده پیانو",
+    name: "رهام رادوین",
+    role: "تنظیم کننده",
     rating: 4.7,
     image:
-      "",
+      "/roham.jpg",
   },
   {
     id: 5,
-    name: "امیر حسینی",
-    role: "ترانه‌سرا و آهنگساز",
+    name: "آژمان",
+    role: "ترانه‌سرا،آهنگساز،خواننده",
     rating: 4.9,
     image:
-      "",
+      "/azhman.jpg",
+  },
+  {
+    id: 6,
+    name: "احمدرضا لیلایی",
+    role: "نوازنده،ترانه سرا،آهنگساز،خواننده",
+    rating: 4.9,
+    image:
+      "/ahmadreza.jpg",
+  },
+  {
+    id: 7,
+    name: "منصور نصرتی",
+    role: "خواننده،ترانه سرا،آهنگساز",
+    rating: 4.9,
+    image:
+      "/mansour.jpg",
+  },
+  {
+    id: 8,
+    name: "امیرعلی",
+    role: "خواننده،ترانه سرا،آهنگساز",
+    rating: 4.9,
+    image:
+      "/amirali.jpg",
   },
 ];
 
@@ -106,7 +130,7 @@ export default function FeaturedArtists() {
                   src={artist.image}
                   alt={artist.name}
                   fill
-                  className="object-cover rounded-full border-2 border-pink-400/60"
+                  className="object-cover object-center rounded-full border-2 border-pink-400/60"
                 />
               </div>
 
