@@ -1,6 +1,11 @@
 @import "tailwindcss";
 
-@theme inline {
+:root {
   --font-serif: var(--font-merri);
   --font-display: var(--font-play);
+  --font-byekan: var(--font-byekan);
+}
+
+html {
+  scroll-behavior: smooth;
 }

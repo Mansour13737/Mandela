@@ -88,7 +88,7 @@ export default function FeaturedArtists() {
   return (
     <section className="relative w-full py-24 bg-gradient-to-b from-gray-950 to-gray-900 text-gray-100">
       <div className="max-w-6xl mx-auto px-6 text-center">
-        <h2 className="text-3xl sm:text-5xl font-[var(--font-play)] font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-indigo-400">
+        <h2 className="text-3xl sm:text-5xl  font-bold mb-4 text-transparent bg-clip-text bg-gradient-to-r from-pink-400 to-indigo-400">
           هنرمندان ماندلا
         </h2>
 
